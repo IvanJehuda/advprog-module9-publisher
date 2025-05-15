@@ -1,4 +1,4 @@
-## Module 9 Reflection
+[## Module 9 Reflection
 Ivan Jehuda Angi - 2306152222
 
 ---
@@ -15,3 +15,5 @@ This URL serves as the connection string to the AMQP broker (like RabbitMQ). By 
 - Communicate over port `5672`, the standard AMQP port
 
 This ensures both the publisher and subscriber are connected to the same broker instance, allowing messages sent by the publisher to be received by the subscriber.
+### Running RabbitMQ as message broker
+![Screenshot1](images/screenshot1.png)
