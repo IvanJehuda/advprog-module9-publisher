@@ -17,3 +17,9 @@ This URL serves as the connection string to the AMQP broker (like RabbitMQ). By 
 This ensures both the publisher and subscriber are connected to the same broker instance, allowing messages sent by the publisher to be received by the subscriber.
 ### Running RabbitMQ as message broker
 ![Screenshot1](images/screenshot1.png)
+### Sending and Processing Event
+![Screenshot2](images/screenshot2.png)
+![Screenshot3](images/screenshot3.png)
+
+
+When RabbitMQ (the message broker) is up and running and we run both the Publisher and Subscriber programs using `cargo run`, the Publisher transmits data to the message broker, while the Subscriber retrieves it. As shown in the illustration, the Publisher sends the data one time, and the Subscriber successfully receives that data from the broker.
