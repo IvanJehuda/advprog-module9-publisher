@@ -23,3 +23,15 @@ This ensures both the publisher and subscriber are connected to the same broker 
 
 
 When RabbitMQ (the message broker) is up and running and we run both the Publisher and Subscriber programs using `cargo run`, the Publisher transmits data to the message broker, while the Subscriber retrieves it. As shown in the illustration, the Publisher sends the data one time, and the Subscriber successfully receives that data from the broker.
+### Monitoring chart based on publisher
+![Screenshot4](images/screenshot4.png)
+In the image above, I executed the Publisher multiple times to noticeably boost the message rates. From this, I learned that sending data more often from the Publisher to the message broker increases the message rate. A high message rate indicates that the broker is handling a large amount of incoming data, which is reflected in the chart pattern.
+
+
+
+
+
+
+
+
+
